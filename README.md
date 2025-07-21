@@ -5,11 +5,24 @@ Real-time network security monitoring with machine learning-based threat detecti
 ## 🚨 Live Demo
 ![AI-IDS Dashboard](https://via.placeholder.com/800x400/1a1a1a/ffffff?text=AI-IDS+Dashboard)
 
-<img width="1524" height="820" alt="Screenshot 2025-07-21 112550" src="https://github.com/user-attachments/assets/7ebf03e3-80ee-4049-a8b7-4107ce4c06d8" />
+
+<img width="1498" height="850" alt="Screenshot 2025-07-21 115024" src="https://github.com/user-attachments/assets/b715406f-7140-40ba-9eec-f4d8b16e3139" />
+
+
+
 
 <img width="1565" height="892" alt="Screenshot 2025-07-21 112423" src="https://github.com/user-attachments/assets/a04db10b-27de-4e67-8b16-f4b8c1bbe83c" />
 
-<img width="1498" height="850" alt="Screenshot 2025-07-21 115024" src="https://github.com/user-attachments/assets/b715406f-7140-40ba-9eec-f4d8b16e3139" />
+
+
+
+<img width="1524" height="820" alt="Screenshot 2025-07-21 112550" src="https://github.com/user-attachments/assets/7ebf03e3-80ee-4049-a8b7-4107ce4c06d8" />
+
+
+
+
+
+
 ## 🎯 Key Features
 
 - **Multi-Model AI Detection**: Random Forest, XGBoost, Deep Autoencoder
