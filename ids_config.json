@@ -1,0 +1,68 @@
+{
+    "system": {
+        "log_level": "INFO",
+        "log_file": "ids.log",
+        "data_dir": "data/",
+        "models_dir": "models/",
+        "alerts_dir": "alerts/"
+    },
+    "network": {
+        "interface": null,
+        "capture_filter": "",
+        "packet_buffer_size": 1000,
+        "monitoring_timeout": 1
+    },
+    "ml_models": {
+        "random_forest": {
+            "n_estimators": 100,
+            "max_depth": 20,
+            "min_samples_split": 5,
+            "min_samples_leaf": 2,
+            "random_state": 42
+        },
+        "xgboost": {
+            "n_estimators": 100,
+            "max_depth": 6,
+            "learning_rate": 0.1,
+            "subsample": 0.8,
+            "random_state": 42
+        },
+        "autoencoder": {
+            "encoding_dim_ratio": 0.5,
+            "epochs": 50,
+            "batch_size": 32,
+            "validation_split": 0.2
+        }
+    },
+    "alerts": {
+        "max_alerts": 1000,
+        "alert_threshold": 0.7,
+        "email_notifications": false,
+        "email_settings": {
+            "smtp_server": "smtp.gmail.com",
+            "smtp_port": 587,
+            "username": "",
+            "password": "",
+            "recipients": []
+        }
+    },
+    "dashboard": {
+        "port": 8501,
+        "host": "localhost",
+        "auto_refresh_interval": 2,
+        "max_display_alerts": 50
+    },
+    "datasets": {
+        "nsl_kdd": {
+            "train_file": "data/KDDTrain+.txt",
+            "test_file": "data/KDDTest+.txt"
+        },
+        "cic_ids2017": {
+            "data_dir": "data/cicids2017/"
+        },
+        "synthetic": {
+            "n_samples": 10000,
+            "attack_ratio": 0.2
+        }
+    }
+}

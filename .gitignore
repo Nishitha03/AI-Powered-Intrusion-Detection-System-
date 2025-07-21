@@ -1,0 +1,34 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (optional - these are large)
+models/
+*.pkl
+*.h5
+
+# Data files (optional)
+data/
+*.csv
+*.txt
+
+# Logs
+*.log
+logs/
