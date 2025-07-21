@@ -2,8 +2,7 @@
 
 Real-time network security monitoring with machine learning-based threat detection.
 
-## 🚨 Live Demo
-![AI-IDS Dashboard](https://via.placeholder.com/800x400/1a1a1a/ffffff?text=AI-IDS+Dashboard)
+
 
 
 <img width="1498" height="850" alt="Screenshot 2025-07-21 115024" src="https://github.com/user-attachments/assets/b715406f-7140-40ba-9eec-f4d8b16e3139" />
